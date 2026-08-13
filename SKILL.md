@@ -1,13 +1,13 @@
 ---
 name: efficient-semantic-thinking
-description: Use when an agent is processing complex information, planning multi-step tasks, maintaining state, comparing alternatives, or repeatedly manipulating information where natural-language reasoning introduces unnecessary linguistic overhead, repetition, ambiguity, or verbosity.
+description: Use when an agent is processing complex information, planning multi-step tasks, maintaining state, comparing alternatives, repeatedly manipulating information, or drafting text that shows signs of AI-generated writing. Apply whenever natural-language reasoning introduces linguistic overhead, repetition, ambiguity, or verbosity, or when output needs to read as human-written — factual, specific, and free of promotional filler, inflated significance, and formulaic phrasing.
 ---
 
 # Efficient Semantic Thinking
 
 Think in **meaning before wording**. Convert unnecessary natural-language structure into compact semantic representations, operate on the compressed representation, and expand back into natural language only when communicating with the user.
 
-The objective is not to make language artificially short. The objective is to minimize linguistic overhead while preserving every piece of information that affects the result.
+The goal is to minimize linguistic overhead without dropping any information that affects the result. Cutting words for their own sake does not count.
 
 When active, announce: "I'm using the efficient-semantic-thinking skill."
 
@@ -120,6 +120,40 @@ Compression is NOT valuable when it removes:
 * Source attribution
 * User preferences
 * Important distinctions
+
+## Avoid AI Writing Patterns
+
+Many of the signs of AI-generated writing are, at their root, linguistic overhead — statements that puff up significance, pad with formulaic phrasing, or substitute vague generality for specific facts. Removing them is part of semantic compression.
+
+When drafting or editing text, avoid these patterns:
+
+**Inflated significance and legacy.** No "stands as a testament," "pivotal moment," "evolving landscape," "marks a shift," "indelible mark," "contributes to the broader history." Report what happened, not how important it was. Specific facts beat grand statements.
+
+**Superficial -ing analyses.** No trailing "highlighting its importance," "underscoring the need," "ensuring continuity," "reflecting broader trends." If the clause after the comma is commentary, cut it or turn it into a concrete fact.
+
+**Promotional language.** No "vibrant," "rich heritage," "breathtaking," "revolutionary," "renowned," "seamless." State attributes directly, with specifics.
+
+**Vague attributions.** No "experts believe," "observers note," "it is widely regarded." Name the source or drop the claim.
+
+**Canned notability claims.** No "featured in prominent outlets," "maintains an active social media presence," "has been profiled in." List the coverage or omit it.
+
+**AI vocabulary.** Avoid stacking words like "crucial," "delve," "enhance," "landscape," "leverage," "furthermore," "additionally," "ultimately." Prefer plain equivalents.
+
+**Copula avoidance.** "Serves as," "stands for," "represents" where "is" works. Use the simple copula.
+
+**Negative parallelisms.** "Not just X, but Y," "not X, but Y," "X rather than Y." State the positive directly.
+
+**Rule of three.** Forcing items into triads — "A, B, and C." Use two or four when the content allows.
+
+**Elegant variation.** Swapping synonyms to avoid repeating a word ("the study... the research... the paper"). Repetition is clearer.
+
+**Em dash overuse.** Heavy reliance on "—" for dramatic reveals. Commas and periods read more naturally.
+
+**Curly-quote / formatting tells.** Overuse of boldface, title-case headings, and emoji-as-formatting.
+
+### The test
+
+If a sentence would read fine as a pull-quote — "This represents a major step in the right direction" — rewrite it as plain information. Pull-quote language is the tell.
 
 ## Process
 
