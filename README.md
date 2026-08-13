@@ -1,6 +1,6 @@
 # efficient-semantic-thinking
 
-[![skills.sh](https://skills.sh/b/CamjamPNG/efficient-semantic-thinking)](https://skills.sh/CamjamPNG/efficient-semantic-thinking)
+[![skills.sh](https://skills.sh/b/CamjamPNG/skills)](https://skills.sh/camjampng/skills/efficient-semantic-thinking)
 
 An agent skill that stops AI models from drowning complex tasks in words — it thinks in compact meaning, not prose, and only talks normally when it needs to.
 
@@ -11,7 +11,7 @@ An agent skill that stops AI models from drowning complex tasks in words — it 
 ## Install
 
 ```
-npx skills add CamjamPNG/efficient-semantic-thinking
+npx skills add CamjamPNG/skills
 ```
 
 ## What the skill does
