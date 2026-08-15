@@ -8,6 +8,8 @@ An agent skill that stops AI models from drowning complex tasks in words — it 
 
 **Why it exists:** natural language is verbose. When an agent restates requirements as prose over and over, it burns tokens, repeats itself, and drifts. This skill gives the model a compressed "mental workspace" — the same information, less overhead.
 
+**AKA:** why use many word, few word do trick 
+
 ## Install
 
 ```
